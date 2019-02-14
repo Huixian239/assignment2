@@ -1,0 +1,44 @@
+body {
+  background-color: #EFEFFB;
+}
+h1 {
+  background-color: #0431B4;
+  color: white;
+  font-family: Lucida handwriting;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid blue;
+
+}
+p {
+  color: black;
+  font-family: Lucida handwriting;
+  font-size: 20px;
+  border: 1px dotted red;
+  padding: 20px;
+  margin: 25px;
+
+}
+
+h2 {
+  color: #0431B4;
+  font-family: lucida handwriting;
+  font-size: 30px;
+  margin: 30px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 35px;
+  text-align: center;
+}
+table tr:nth-child(even) {
+  background-color: #fff;
+}
+table tr:nth-child(odd) {
+ background-color: #eee;
+}
+table th {
+  background-color: black;
+  color: white;
+}
